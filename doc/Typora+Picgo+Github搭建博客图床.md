@@ -15,7 +15,11 @@
 
 ##### 搭建过程
 
-1. 申请Github Token，申请后只在第一次显示，注意保存![image-20210908161230643](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161230643.png)
+1. 申请Github Token，申请后只在第一次显示，注意保存
+
+   
+
+   ![image-20210908161230643](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161230643.png)
 
 2. 新建Github仓库
 

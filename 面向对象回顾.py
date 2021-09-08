@@ -46,7 +46,7 @@ print('Employee.__module__:{}'.format(Employee.__module__))
 print('Employee.__bases__:{}'.format(Employee.__bases__))
 print('Employee.__dict__:{}'.format(Employee.__dict__))
 
-
+#  销毁测试
 class Point:
     def __init__(self, x=0, y=0):
         self.x = x
@@ -59,3 +59,44 @@ class Point:
 
 pt1 = Point()
 del pt1
+
+#  运算符重载
+class Vector:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def __str__(self):
+        return 'Result is {}'.format(self.a + self.b)
+
+    def __add__(self, other):
+        return self.a + other.a, self.b + other.b
+
+
+v1 = Vector(1, 2)
+v2 = Vector(-5, 10)
+print(str(v1))
+print(v1+v2)
+
+
+#  类的私有属性和私有方法
+class Counter:
+    publicCount = 0  # 类变量
+    __privateCount = 'private'  # 类私有变量
+
+    def counter(self):
+        self.__privateCount += 1
+        self.publicCount + 'private'
+        print(self.__privateCount)
+
+    # 私有方法
+    def _privateCounter(self):
+        print('This is a private method')
+
+c1 = Counter()
+# c1.counter()  # 打印私有变量
+# print(c1.publicCount)
+# print(c1.__privateCount)
+# c1._privateCounter()
+
+print(c1._Counter__privateCount)

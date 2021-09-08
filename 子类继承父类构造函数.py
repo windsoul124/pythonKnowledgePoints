@@ -50,7 +50,6 @@ class Son(Father):
         print("Hi, I'm {}".format(self.name))
     def getName(self):
         return 'Son:{}'.format(self.name)
-    Father.getName(self=)
 
 son = Son('Andy')
 print(son.getName())
