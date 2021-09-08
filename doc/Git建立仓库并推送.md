@@ -4,11 +4,11 @@
 
 2. 在Github中新建仓库
 
-   <img src="C:\Users\NINGMEI\AppData\Roaming\Typora\typora-user-images\image-20210908093854722.png" alt="image-20210908093854722" style="zoom: 67%;" />
+   <img src="https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908093854722.png" alt="image-20210908093854722" style="zoom: 67%;" />
 
    3.记录仓库地址
 
-   <img src="C:\Users\NINGMEI\AppData\Roaming\Typora\typora-user-images\image-20210908094215742.png" alt="image-20210908094215742" style="zoom:67%;" />
+   <img src="https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908094215742.png" alt="image-20210908094215742" style="zoom:67%;" />
 
    4.在本地项目文件夹中打开Git bash
 
@@ -35,7 +35,7 @@
 
    Git操作需要Token授权，进入Github个人主页获取Token。选中repo。
 
-   <img src="C:\Users\NINGMEI\AppData\Roaming\Typora\typora-user-images\image-20210908095406499.png" alt="image-20210908095406499" style="zoom:67%;" />
+   <img src="https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908095406499.png" alt="image-20210908095406499" style="zoom:67%;" />
 
 
 
