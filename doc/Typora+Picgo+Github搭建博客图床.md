@@ -16,8 +16,26 @@
 ##### 搭建过程
 
 1. 申请Github Token，申请后只在第一次显示，注意保存![image-20210908161230643](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161230643.png)
+
 2. 新建Github仓库
-3. Picgo中选择Github图床![image-20210908161430183](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161430183.png)
-4. 上传设置![image-20210908161818830](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161818830.png)
-5. Typora上传设置![image-20210908162053729](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908162053729.png)
+
+   
+
+3. Picgo中选择Github图床
+
+   
+
+   ![image-20210908161430183](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161430183.png)
+
+4. 上传设置
+
+   
+
+   ![image-20210908161818830](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908161818830.png)
+
+5. Typora上传设置
+
+   
+
+   ![image-20210908162053729](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210908162053729.png)
 
