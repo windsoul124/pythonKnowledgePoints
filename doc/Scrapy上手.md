@@ -123,6 +123,10 @@ class ItcastSpider(scrapy.Spider):
         return items
 ```
 
+运行爬虫：
+
+`scrapy crawl itcast`
+
 scrapy保存信息的最简单的方法主要是四种， -o输出制定格式的文件：
 
 ##### json格式，默认为Unicode编码
@@ -140,3 +144,7 @@ scrapy保存信息的最简单的方法主要是四种， -o输出制定格式�
 ##### xml格式
 
 `scrapy crawl itcast -o teachers.xml`
+
+```
+start_urls = ['https://www.google.com/search?q=semiconductor+trends&sxsrf=ALeKk03-JfkEO9ENt0lstr0YA3CP8OADmQ%3A1628840838478&source=hp&ei=hiMWYejUGtXJ-gTGgLXgAg&iflsig=AINFCbYAAAAAYRYxljLcJ-u4xVutRWo7lWaNAA_vj-zI&oq=semiconductor+trends&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgjECc6BQgAEJECOgsIABCABBCxAxCDAToOCC4QsQMQgwEQxwEQowI6CAgAEIAEELEDOggILhCxAxCDAToLCC4QgAQQsQMQgwE6DgguEIAEELEDEMcBEKMCOhEILhCABBCxAxCDARDHARCvAToOCC4QgAQQsQMQxwEQ0QM6CwguEIAEEMcBEK8BOg4ILhCABBCxAxDHARCvAToRCC4QgAQQsQMQgwEQxwEQ0QM6CAguEIAEELEDOggIABCABBDJAzoFCAAQkgM6DgguEIAEEMcBEK8BEJMCOgsILhCABBDHARDRAzoFCC4QgARQvAdYyihgsiloAHAAeACAAUyIAeQIkgECMjCYAQCgAQE&sclient=gws-wiz&ved=0ahUKEwjor8j8wK3yAhXVpJ4KHUZADSwQ4dUDCAc&uact=5']
+```
