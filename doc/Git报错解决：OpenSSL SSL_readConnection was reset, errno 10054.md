@@ -1,6 +1,6 @@
 ## Git报错解决：OpenSSL SSL_read:Connection was reset, errno 10054
 
-电脑首次从github仓库clone到本地出现网络延时错误，打开SS也依然失败。
+Git操作出现网络错误，通过代理也无法解决。
 
 **修改HTTP的SSL认证**
 
