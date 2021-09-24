@@ -28,7 +28,7 @@
    #  将代码库地址添加到本地配置， origin可变
    git remote add origin https://github.com/...  
    #  推送代码
-   git push origin master
+   git push --set-upstream origin master
    ```
 
    6.Token设置
@@ -39,4 +39,21 @@
 
 
 
-注意事项：在Github中创建项目的默认branch为main，如果在push代码时用master，则会新建一个分支，想更改需要在master分支中的setting中更改为default。
+注意事项：
+
+1. 在Github中创建项目的默认branch为`main`，如果在push代码时用`master`，则会新建一个分支，想更改需要在`master`分支中的setting中更改为`default`。
+
+2. 或者将Github默认分支名字更改为`master`。
+
+3. 如果将已存在的项目上传，第一次push会提示在线版本和本地版本不同
+
+   
+
+![image-20210924163930100](https://raw.githubusercontent.com/windsoul124/blogPic/main/img/image-20210924163930100.png)
+
+​	解决方案：强制合并两个分支，允许不相关历史提交。
+
+`git pull origin master --allow-unrelated-histories`
+
+
+
