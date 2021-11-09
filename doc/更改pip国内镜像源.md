@@ -4,7 +4,7 @@
 
 1. Windows更改pip镜像源
 
-   - 进入 `C:\Users\Administrator\AppData\Roaming` 路径下
+   - 进入 `C:\User\AppData\Roaming` 路径下
 
    - 找到`pip`文件夹，更改其中的`pip.ini`文件。如果没有文件夹则新建同名文件夹和同名配置文件。
 
